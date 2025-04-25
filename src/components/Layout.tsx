@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Outlet, Link, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '@/contexts/AuthContext';
@@ -32,7 +31,6 @@ const Layout: React.FC = () => {
     { name: 'Committee', path: '/committee', icon: <Award className="w-5 h-5" /> },
   ];
 
-  // Role-based menu items
   const roleBasedItems = () => {
     if (user?.role === 'admin') {
       return [
@@ -65,7 +63,7 @@ const Layout: React.FC = () => {
       <header className="sticky top-0 z-50 bg-white border-b shadow-sm">
         <div className="container flex items-center justify-between h-16 px-4 mx-auto">
           <Link to="/" className="flex items-center">
-            <h1 className="text-2xl font-bold text-primary">Vignan Nexus</h1>
+            <h1 className="text-2xl font-bold text-primary">VU SAC</h1>
           </Link>
 
           {/* Mobile menu button */}

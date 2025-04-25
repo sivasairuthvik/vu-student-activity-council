@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
@@ -11,7 +10,7 @@ const Index = () => {
       <section className="w-full bg-gradient-to-r from-primary-light via-primary to-primary-dark text-white">
         <div className="container px-4 py-20 mx-auto text-center">
           <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl mb-6 animate-fade-in">
-            Vignan University Student Activity Council
+            Vignan University Student Activity Council (VU SAC)
           </h1>
           <p className="max-w-2xl mx-auto mb-8 text-lg animate-fade-in">
             Empowering students through leadership, events, and community engagement.
